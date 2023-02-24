@@ -1,7 +1,12 @@
+import MainHeader from "../../components/MainHeader";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Test</h1>
-    </main>
+    <>
+      <MainHeader />
+      <main>
+        <h1>Test</h1>
+      </main>
+    </>
   );
 }

@@ -1,0 +1,14 @@
+header {
+  background-color: var(--dd-bg-primary);
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.dd-home-nav {
+  display: flex;
+  justify-content: start;
+  color: var(--dd-font-tertiary);
+  font-size: 20px;
+  font-weight: 700;
+}
