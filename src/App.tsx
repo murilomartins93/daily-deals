@@ -12,8 +12,8 @@ export default function App() {
           <Route index element={<Offer />} />
           <Route path="home" element={<Offer />} />
           <Route path="offer-detail" element={<OfferDetail />} />
-          <Route path="subscription" element={<Subscription />} />
         </Route>
+        <Route path="subscription" element={<Subscription />} />
         <Route path="*" element={<Navigate to={"/"} />} />
       </Routes>
     </BrowserRouter>
