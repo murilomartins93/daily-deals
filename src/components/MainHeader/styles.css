@@ -5,11 +5,31 @@ header {
   align-items: center;
 }
 
-.dd-home-nav {
+.dd-header-nav {
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.dd-nav-title {
   color: var(--dd-font-tertiary);
   font-size: 20px;
   font-weight: 700;
-  padding: 10px;
+}
+
+.dd-navlinks {
+  width: 210px;
+  font-size: 14px;
+  color: var(--dd-font-tertiary);
+  display: flex;
+  justify-content: space-between;
+}
+
+.dd-font-regular {
+  font-weight: 400;
+}
+
+.dd-font-bold {
+  font-weight: 700;
 }
