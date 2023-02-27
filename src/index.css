@@ -82,11 +82,18 @@ main {
   font-size: 16px;
   font-weight: 700;
   color: var(--dd-btn-secondary);
-  background: var(--dd-btn-primary);
+  background-color: var(--dd-btn-primary);
   width: 150px;
   height: 45px;
   border-radius: 6px;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.dd-btn:hover {
+  background-color: var(--dd-btn-secondary);
+  color: var(--dd-btn-primary);
+  border: 2px solid var(--dd-btn-primary);
 }
